@@ -1,0 +1,183 @@
+/* .App {
+  text-align: center;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.FieldLogin {
+  width:300px;
+  height: 100 px;
+  color: rgb(240, 242, 246);
+  background-color: #61dafb;
+  border: 2px;
+  border-color: #61dafb;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: x-small;
+  font-style: oblique;
+}
+
+.Welcome{
+  color:hwb(190 69% 2%);
+  height: 750 px;
+  width: 100 px;
+  background-color: #d0f5ff;
+  border: 4px solid;
+  position: center;
+  border-radius: 30px;
+}
+
+.header{
+  color: cornflowerblue;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.label{
+  font-family: Courier New, Courier, monospace;
+  padding: 7px;
+  margin: 3px;
+  color:black
+}
+.input-style {
+  text-align: center;
+  padding:5px;
+  margin: 3px;
+  border-radius: 5px;
+  border: 2px solid;
+  width: 300px;
+  border-color:hwb(238 0% 0%);
+  font-family: Courier New, Courier, monospace;
+  transition: background-color 0.3s ease-in-out;
+  outline: none;
+  padding-left: 30px;
+  flex-wrap: wrap;
+}
+
+.login{
+  border: 3px solid;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  position: center;
+  border-radius: 30px;
+
+}
+
+.app-wrapper{
+  border: 5px solid cornflowerblue;
+  border-radius: 30px;
+  height: 1000px;
+  width: 400px;
+  position: center;
+  text-align: center;
+}
+
+.sign{
+  color: black;
+  border-radius: 50px;
+  border-color:black;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: center;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.dropdown-container {
+  text-align: center;
+  border: 2px solid #0a02ff;
+  position: center;
+  border-radius: 30px;
+  border-radius: 30;
+  background: white;
+  width: 350px;
+  position: center;
+  margin-left: 20px;
+}
+
+.dropdown-menu{
+  position: center;
+  transform: translateY(4px);
+  width: 100%;
+  text-align: center;
+  position:center;
+  height: 80px;
+  overflow: auto;
+  max-height: 150px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+}
+
+.dropdown-item{
+  padding: 3px;
+  cursor: pointer;
+  color: #282c34;
+  border: black solid;
+  border-radius:30px;
+  border-color: #282c34;
+  width:300px;
+  text-align: center;
+  padding-left: 30px;
+}
+
+.dropdown-item:hover{
+  background-color: rgb(199, 246, 255);
+  border-radius: 50px;
+  width: 300px;
+}
+
+.container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  background-color: cornflowerblue;
+}
+
+ */

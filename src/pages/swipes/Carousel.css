@@ -1,0 +1,48 @@
+/* body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+.carousel {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  
+  .inner {
+    white-space: nowrap;
+    transition: transform 0.3s;
+  }
+  
+  .carousel-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  
+  .indicators {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .indicators > button {
+    opacity: 0%;
+    width: 100%;
+    border:#fff;
+  }
+  
+  .indicators > button:hover {
+    background-color: grey;
+    opacity: 30%;
+    color: black;
+    font-size: 20px;
+  }
+   */
