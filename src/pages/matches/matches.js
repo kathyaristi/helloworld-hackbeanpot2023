@@ -2,58 +2,8 @@ import '../../App.css';
 import { useState } from 'react';
 
 import profilepic from "./images/logo192.png";
-
-const chatlog1 = [
-  {
-    'id': 0,
-    'sender': 'Jimmy',
-    'text': "What's up gamer"
-  },
-  {
-    'id': 1,
-    'sender': 'User',
-    'text': "Yessir Yessir"
-  },
-]
-const chatlog2 = [
-  {
-    'id': 0,
-    'sender': 'Beact',
-    'text': "Hey Handsome"
-  },
-  {
-    'id': 1,
-    'sender': 'Beact',
-    'text': "Did u lose a timestamp?"
-  },
-  {
-    'id': 2,
-    'sender': 'Beact',
-    'text': "Cuz i'm pretty sure it's DateTime.now();"
-  },
-  {
-    'id': 3,
-    'sender': 'User',
-    'text': "Omg 😍😍"
-  },
-]
-const chatlog3 = [
-  {
-    'id': 0,
-    'sender': 'Moai',
-    'text': "Hey"
-  },
-  {
-    'id': 1,
-    'sender': 'Moai',
-    'text': "Hey dum dum"
-  },
-  {
-    'id': 2,
-    'sender': 'Moai',
-    'text': "Where the fuck is my gum gum"
-  },
-]
+import codingdog from "./images/codingdog1.jpg";
+import studying1 from "./images/studying1.jpg";
 
 const person1 = {
   "id": 3,
@@ -86,7 +36,144 @@ const person1 = {
   "chat": []
 }
 
+const person2 = {
+  "id": 1,
+  "name": "Beact",
+  "major": "Computer Science and Math",
+  "grad": 23,
+  "courses": [
+    "Fundies II",
+    "OOD"
+  ],
+  "co-op": [
+    "Microsoft",
+    "Google"
+  ],
+  "languages": [
+    "Python",
+    "Java",
+    "C#"
+  ],
+  "looking": "Mentee",
+  "pic1": "PIC2.1",
+  "pic2": "PIC2.2",
+  "pic3": "PIC2.3",
+  "profile": {codingdog},
+  "bio": "Bello Borld",
+  "favlang": "Java",
+  "mode": "Dark",
+  "interest": "Full Stack",
+  "snack": "Computer Chips",
+  "match": 1,
+  "chat": [
+    {
+      "id": 0,
+      "sender": "Beact",
+      "text": "Hey AAA"
+    },
+    {
+      "id": 1,
+      "sender": "Beact",
+      "text": "Did you lose a timestamp?"
+    },
+    {
+      "id": 2,
+      "sender": "Beact",
+      "text": "Cuz I'm pretty sure it's DateTime.now();"
+    },
+    {
+      "id": 3,
+      "sender": "User",
+      "text": "OMG <3"
+    }
+  ]
+}
 
+const person3 = {
+  "id": 2,
+  "name": "Neutron",
+  "major": "Cybersecurity",
+  "grad": 25,
+  "courses": [
+    "Cyberlaw"
+  ],
+  "co-op": [
+    "Gamestop",
+    "Google"
+  ],
+  "languages": [
+    "Java",
+    "C++"
+  ],
+  "looking": "Mentor",
+  "pic1": "PIC3.1",
+  "pic2": "PIC3.2",
+  "pic3": "PIC3.3",
+  "profile": {profilepic},
+  "bio": "OOOOOOUUUAUUHIAHIA",
+  "favlang": "C++",
+  "mode": "Dark",
+  "interest": "Cybersecurity",
+  "snack": "Pebbles",
+  "match": 1,
+  "chat": [
+    {
+      "id": 0,
+      "sender": "Neutron",
+      "text": "Hey"
+    },
+    {
+      "id": 1,
+      "sender": "Neutron",
+      "text": "Hey dum dum"
+    },
+    {
+      "id": 2,
+      "sender": "Neutron",
+      "text": "Where the heck is my gum gum"
+    }
+  ]
+}
+
+const person5 = {
+  "id": 4,
+  "name": "Bruno Mars",
+  "major": "Data Science and Math",
+  "grad": 25,
+  "courses": [
+    "Database Design",
+    "Algo",
+    "Fundies II"
+  ],
+  "co-ops": [],
+  "languages": [
+    "Python",
+    "React"
+  ],
+  "looking": "Study Buddy",
+  "pic1": "PIC5.1",
+  "pic2": "PIC5.2",
+  "pic3": "PIC5.3",
+  "profile": {studying1},
+  "bio": "Live Laugh Love <3",
+  "favlang": "Dr. Racket",
+  "mode": "Dark",
+  "interest": "Full Stack",
+  "snack": "pocky",
+  "match": 1,
+  "chat": [
+    {
+      "id": 0,
+      "sender": "Bruno Mars",
+      "text": "What's up gamer"
+    },
+    {
+      "id": 1,
+      "sender": "Bruno Mars",
+      "text": "Yessir Yessir"
+    }
+  ]  
+}
 
 function Chatlog(props) {
   const [list, setList] = useState(props.chats)
@@ -151,21 +238,21 @@ export default function MatchList() {
   const [people, setPeople] = useState([
     {
       'id': 0,
-      'inname': 'Jimmy',
-      'inpic': profilepic,
-      'inchat': chatlog1
+      'inname': person5.name,
+      'inpic': studying1,
+      'inchat': person5.chat
     },
     {
       'id': 1,
-      'inname': 'Beact',
-      'inpic': profilepic,
-      'inchat': chatlog2
+      'inname': person2.name,
+      'inpic': codingdog,
+      'inchat': person2.chat
     },
     {
       'id': 2,
-      'inname': 'Moai',
+      'inname': person3.name,
       'inpic': profilepic,
-      'inchat': chatlog3
+      'inchat': person3.chat
     }
   ])
   const deleteByValue = value => {

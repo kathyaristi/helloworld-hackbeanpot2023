@@ -16,6 +16,7 @@ return (
 		<Route path='/profile' element={<Profile/>} />
 		<Route path='/swipes' element={<Swipes/>} />
 		<Route path='/matches' element={<Matches/>} />
+		<Route path='/login' element={<Home/>} />
 	</Routes>
 	</Router>
 );

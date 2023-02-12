@@ -41,7 +41,7 @@ const Carousel = ({ children }) => {
 
   const handlers = useSwipeable({
     onSwipedLeft: () => updateIndex(activeIndex + 1),
-    onSwipedRight: () => updateIndex(activeIndex - 1)
+    onSwipedRight: () => updateIndex(activeIndex + 1)
   });
 
   return (
@@ -62,10 +62,10 @@ const Carousel = ({ children }) => {
       <div className="indicators">
         <button
           onClick={() => {
-            updateIndex(activeIndex - 1);
+            updateIndex(activeIndex + 1);
           }}
         >
-          Pass
+          pass
         </button>
         {/* {React.Children.map(children, (child, index) => {
           return (
@@ -84,7 +84,7 @@ const Carousel = ({ children }) => {
             updateIndex(activeIndex + 1);
           }}
         >
-          <a href='../matches'>Match</a>
+          <a href='../matches'>match</a>
         </button>
       </div>
     </div>
