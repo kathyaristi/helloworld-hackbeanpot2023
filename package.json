@@ -1,7 +1,7 @@
 {
   "name": "helloworld-hackbeanpot2023",
   "version": "0.1.0",
-  "homepage": "https://AnanyaT129.github.io/helloworldhackbeanpot2023",
+  "homepage": "https://AnanyaT129.github.io/helloworld-hackbeanpot2023",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
