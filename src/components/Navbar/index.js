@@ -9,6 +9,9 @@ const Navbar = () => {
     <>
       <Nav>
         <NavMenu>
+        <NavLink to="/login" activeStyle>
+            Login
+          </NavLink>
           <NavLink to="/profile" activeStyle>
             <img class="padded" height="30" width="30"src= "https://www.pngkit.com/png/full/31-316559_white-home-icon-no-background.png" ></img>
           </NavLink>

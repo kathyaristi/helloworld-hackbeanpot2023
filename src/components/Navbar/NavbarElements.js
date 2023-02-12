@@ -13,7 +13,7 @@ transition: all 0.3s ease; /* Add transition for hover effects */
 `;
 
 export const NavLink = styled(Link)`
-color: #808080;
+color: white;
 display: flex;
 align-items: center;
 text-decoration: none;
@@ -21,13 +21,13 @@ padding: 0 1rem;
 height: 100%;
 cursor: pointer;
 &.active {
-	color: #4d4dff;
+	color: white;
 }
 `;
 
 export const Bars = styled(FaBars)`
 display: none;
-color: #808080;
+color: #white;
 @media screen and (max-width: 768px) {
 	display: block;
 	position: absolute;
