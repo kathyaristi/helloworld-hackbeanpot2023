@@ -84,7 +84,7 @@ const Carousel = ({ children }) => {
             updateIndex(activeIndex + 1);
           }}
         >
-          Match
+          <a href='../matches'>Match</a>
         </button>
       </div>
     </div>

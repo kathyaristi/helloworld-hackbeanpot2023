@@ -9,6 +9,7 @@ display: flex;
 justify-content: space-between;
 padding: 0.2rem calc((100vw - 1000px) / 2);
 z-index: 12;
+transition: all 0.3s ease; /* Add transition for hover effects */
 `;
 
 export const NavLink = styled(Link)`

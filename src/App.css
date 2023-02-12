@@ -1,12 +1,16 @@
 /* GENERAL CSS */
 body {
-    font: 14px "Century Gothic", Futura, sans-serif;
+    font: 14px "Gotham Rounded", Futura, sans-serif;
     margin-top: 2%;
     margin-bottom: 2%;
     margin-left: 20%;
     margin-right: 20%;
     white-space: nowrap;
   }
+
+h1 {
+    color: rgb(255, 108, 133)
+}
 
 /* NAVBAR CSS */
 .navbar {
